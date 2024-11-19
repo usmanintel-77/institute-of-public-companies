@@ -1,34 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import YoungImg from "./assets/images/Young_Back.jpg";
 
 const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-[url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')] bg-cover bg-center bg-no-repeat h-screen hero_image lg:h-screen">
+      <section className="relative bg-[url('./assets/images/Hero_Back.jpg')] bg-cover bg-center bg-no-repeat h-screen hero_image lg:h-screen">
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/70 to-gray-900/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/40 to-gray-900/30"></div>
 
         {/* Content Container */}
         <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16 lg:h-full lg:flex lg:items-center text-main-light">
           <div className="max-w-2xl text-center lg:text-left">
             {/* Heading */}
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase text-main-light font-barlow leading-snug">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-7xl font-extrabold uppercase text-main-light font-barlow leading-snug">
               Welcome to the
             </h2>
-            <h1 className="text-3xl mt-4 sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-barlow uppercase leading-snug sm:leading-tight animate-slide-in">
+            <h1 className="text-3xl mt-4 sm:text-4xl md:text-5xl lg:text-7xl font-extrabold font-barlow uppercase leading-snug sm:leading-tight animate-slide-in">
               <span className="text-main-green"> Institute of </span>
               <br />
               PUBLIC COMPANIES
             </h1>
 
             {/* Subheading */}
-            <p className="mt-6 text-base sm:text-lg md:text-xl lg:text-2xl italic font-aeonik leading-relaxed animate-fade-in">
-              "The Birth Place of Public Companies"
+            <p className="mt-2 text-base sm:text-lg md:text-xl lg:text-3xl ms-0 lg:ms-44 italic font-aeonik leading-relaxed animate-fade-in">
+              "The Birth Place of Unicorns"
             </p>
 
             {/* Call-to-Action */}
-            <div className="mt-8">
+            <div className="mt-12">
               <Link
                 to="/herosection"
                 className="inline-block bg-main-green text-main-dark px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded-lg text-sm sm:text-base md:text-lg font-bold shadow-lg hover:bg-accent-blue hover:text-main-light transition-all duration-300"
@@ -55,8 +56,8 @@ const Home = () => {
         {/* Steps Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto">
           {/* Step 1 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
               1. Applicant Assessment
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
@@ -67,9 +68,9 @@ const Home = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-slide-in cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
-              2. Induction & Pre-Training
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-slide-in cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
+              2. Pre-Training & Admissions
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
               Selected applicants participate in rigorous pre-training,
@@ -79,8 +80,8 @@ const Home = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in-delay cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in-delay cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
               3. Public Company Allocation
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
@@ -90,8 +91,8 @@ const Home = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-slide-in cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-slide-in cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
               4. Performance & Monitoring
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
@@ -102,8 +103,8 @@ const Home = () => {
           </div>
 
           {/* Step 5 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
               5. Evaluation & Examination
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
@@ -113,8 +114,8 @@ const Home = () => {
           </div>
 
           {/* Step 6 */}
-          <div className="p-6 bg-white shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in-delay cursor-pointer transform hover:scale-105">
-            <h3 className="text-2xl font-barlow font-bold text-main-green mb-4">
+          <div className="p-6 bg-main-green shadow-lg rounded-3xl hover:shadow-2xl transition animate-fade-in-delay cursor-pointer transform hover:scale-105">
+            <h3 className="text-2xl font-barlow font-bold text-dark mb-4">
               6. Certification & CEOship
             </h3>
             <p className="text-text-color font-aeonik leading-relaxed">
@@ -139,12 +140,7 @@ const Home = () => {
           </p>
 
           {/* Content Box */}
-          <div
-            className="relative p-4 lg:p-12 pt-12 pb-12 lg:pt-32 lg:pb-32 bg-cover bg-center rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fade-in-delay"
-            style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
-            }}
-          >
+          <div className="relative p-4 lg:p-12 pt-12 pb-12 lg:pt-32 lg:pb-32 bg-cover bg-center rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fade-in-delay bg-[url('./assets/images/Hero_Back.jpg')]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-gray-900/70 rounded-2xl"></div>
 
@@ -192,7 +188,7 @@ const Home = () => {
               <Link
                 key={idx}
                 to={program.url}
-                className="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 animate-fade-in"
+                className="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:bg-main-green transition-all duration-300 animate-fade-in"
               >
                 <h3 className="text-xl text-left font-barlow font-bold text-main-dark mb-4">
                   {program.title}
@@ -209,47 +205,31 @@ const Home = () => {
       </section>
 
       {/*  Women in Leadership Program Section */}
+      <div className="text-center">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-2 mt-8 text-dark animate-slide-in">
+          Women Business Leadership Program
+        </h1>
+        <p className="text-lg sm:text-xl lg:text-2xl font-aeonik italic leading-relaxed mb-2 animate-fade-in">
+          Empowering Women to Lead Public Companies and Drive Global Impact
+        </p>
+      </div>
+      <Link to="/women-leadership">
+        <div className="bg-main-light py-4 px-6 sm:px-12 lg:px-20">
+          <div className="relative bg-cover bg-center rounded-xl h-[450px] shadow-lg hover:shadow-2xl transition-all duration-300 animate-fade-in bg-[url('./assets/images/Women_Main.webp')]">
+            {/* Overlay */}
+            <div className="absolute inset-0 rounded-xl"></div>
 
-      <div className="bg-main-light py-16 px-6 sm:px-12 lg:px-20">
-        <div
-          className="relative bg-cover bg-center rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 animate-fade-in"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')`,
-          }}
-        >
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-gray-900/50 rounded-xl"></div>
-
-          {/* Content */}
-          <div className="relative z-10 text-center px-6 sm:px-12 lg:px-16 py-20 text-main-light">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-6 text-main-green animate-slide-in">
-              Women in Leadership Program
-            </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl font-aeonik italic leading-relaxed mb-6 animate-fade-in">
-              Empowering Women to Lead Public Companies and Drive Global Impact
-            </p>
-            <p className="text-base paragraph_mobile sm:text-lg lg:text-xl font-aeonik leading-relaxed max-w-4xl mx-auto mb-8 animate-fade-in-delay">
-              A dedicated initiative designed to equip women with the tools,
-              skills, and confidence needed to thrive in public company
-              leadership. Our program welcomes women from all backgrounds and
-              experience levels, providing specialized training and mentorship
-              to prepare them for executive roles and CEO positions.
-            </p>
-            <Link
-              to="/women-leadership"
-              className="inline-block bg-main-green text-main-dark px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-accent-blue hover:text-main-light transition-all duration-300 animate-bounce"
-            >
-              Learn More
-            </Link>
+            {/* Content */}
+            <div className="relative z-10 text-center px-6 sm:px-12 lg:px-16 py-6 text-main-light"></div>
           </div>
         </div>
-      </div>
+      </Link>
 
       {/*  Young Leaders Program Section */}
       <section className="bg-main-light py-16 px-6 sm:px-12 lg:px-20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
-            <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-main-dark mb-6 animate-slide-in">
+            <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-main-dark mb-2 mt-4 animate-slide-in">
               Young Leaders Program
             </h2>
             <p className="text-lg sm:text-xl font-aeonik italic text-text-color leading-relaxed mb-8 animate-fade-in">
@@ -261,7 +241,7 @@ const Home = () => {
             {/* Image */}
             <div className="lg:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80"
+                src={YoungImg}
                 alt="Young Leaders"
                 className="h-full w-full object-cover"
               />
@@ -294,7 +274,7 @@ const Home = () => {
       {/*  How We Do It Section */}
       <section className="bg-main-light py-16 px-6 sm:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-main-dark mb-6 animate-slide-in">
+          <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-main-dark mb-2 animate-slide-in">
             How We Do It
           </h2>
           <p className="text-lg sm:text-xl font-aeonik italic text-text-color leading-relaxed mb-12 animate-fade-in">
@@ -303,7 +283,7 @@ const Home = () => {
 
           <div className="relative bg-white shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-300 animate-slide-in">
             <div className="p-8 sm:p-12">
-              <h3 className="text-2xl sm:text-3xl font-barlow font-bold text-main-dark mb-6">
+              <h3 className="text-2xl sm:text-3xl font-barlow font-bold text-main-dark mb-4">
                 Admissions Gateway
               </h3>
               <p className="text-base sm:text-lg font-aeonik text-text-color mb-8 leading-relaxed">
@@ -326,7 +306,7 @@ const Home = () => {
       <section className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 py-16 px-6 sm:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto text-center">
           {/* Heading */}
-          <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-white mb-6 animate-slide-in">
+          <h2 className="text-4xl sm:text-5xl font-barlow font-extrabold text-white mb-4 animate-slide-in">
             Discover the Top 20 FAQs
           </h2>
 
@@ -346,7 +326,7 @@ const Home = () => {
       </section>
 
       {/*  Live Chat Section */}
-      <section class="bg-gradient-to-r from-main-light via-white to-main-light py-12 px-6 text-text-color font-barlow">
+      <section class="bg-gradient-to-r from-main-light via-white to-main-light py-12 px-6 text-text-color font-barlow mt-8">
         <div class="max-w-5xl mx-auto shadow-2xl rounded-xl overflow-hidden bg-white relative">
           <div class="absolute inset-0 bg-gradient-to-b from-transparent to-main-light opacity-30 pointer-events-none"></div>
           <div class="p-10">

@@ -115,18 +115,15 @@ const WomenLeadershipPage = () => {
     <div className="bg-main-light min-h-screen py-16 px-6 sm:px-12 lg:px-20">
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-screen flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')`,
-        }}
+        className="relative bg-cover bg-center h-screen flex items-end justify-center bg-[url('./assets/images/Woman_Back.png')]"
       >
-        <div className="absolute inset-0 bg-gray-900/60"></div>
-        <div className="relative z-10 text-center max-w-4xl px-6 sm:px-12 lg:px-16 text-main-light">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-6 text-main-green animate-slide-in">
+        <div className="absolute inset-0"></div>
+        <div className="relative z-10 text-center max-w-4xl mb-6 px-6 sm:px-12 lg:px-16 text-main-light">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-2 text-main-green animate-slide-in">
             Women in Leadership Program
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl font-aeonik italic leading-relaxed animate-fade-in">
-            Empowering Women to Lead Public Companies and Drive Global Impact
+            Empowering Women to Lead Public Companies and Drive
           </p>
         </div>
       </div>
@@ -137,6 +134,8 @@ const WomenLeadershipPage = () => {
           Program Overview
         </h2>
         <p className="text-base sm:text-lg lg:text-xl font-aeonik leading-relaxed mb-8">
+        A dedicated initiative designed to equip women with the tools, skills, and confidence needed to thrive in public company leadership. Our program welcomes women from all backgrounds and experience levels, providing specialized training and mentorship to prepare them for executive roles and CEO positions.
+        <br/><br/>
           The Women in Leadership Program is structured to support women at
           different stages in their careers. Through a blend of theory,
           hands-on experience, and one-on-one mentorship, participants learn

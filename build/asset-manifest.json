@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18c882f5.css",
+    "main.js": "/static/js/main.0452b30e.js",
+    "static/js/453.f6da216a.chunk.js": "/static/js/453.f6da216a.chunk.js",
+    "static/media/Young_Back.jpg": "/static/media/Young_Back.1464615557fdbf9e0e87.jpg",
+    "static/media/Hero_Page.jpg": "/static/media/Hero_Page.5d79b7b22755f5dabaf1.jpg",
+    "static/media/Hero_Back.jpg": "/static/media/Hero_Back.52625c2e8e0e8ed97214.jpg",
+    "static/media/Women_Main.webp": "/static/media/Women_Main.2b0d6f03dfb8b7c32478.webp",
+    "static/media/BarlowSemiCondensed-Bold.ttf": "/static/media/BarlowSemiCondensed-Bold.6454195504604ebe42c3.ttf",
+    "static/media/Woman_Back.png": "/static/media/Woman_Back.e70e1cb7f13f19349f28.png",
+    "static/media/AeonikTRIAL-Bold.otf": "/static/media/AeonikTRIAL-Bold.bb271c04181fa945fbbe.otf",
+    "static/media/AeonikTRIAL-Regular.otf": "/static/media/AeonikTRIAL-Regular.f252af9282d8460f6582.otf",
+    "index.html": "/index.html",
+    "main.18c882f5.css.map": "/static/css/main.18c882f5.css.map",
+    "main.0452b30e.js.map": "/static/js/main.0452b30e.js.map",
+    "453.f6da216a.chunk.js.map": "/static/js/453.f6da216a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c882f5.css",
+    "static/js/main.0452b30e.js"
+  ]
+}

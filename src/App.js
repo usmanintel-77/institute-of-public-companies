@@ -3,7 +3,7 @@ import AppRoutes from './AppRoutes'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-dark'>
       <AppRoutes/>
     </div>
   )

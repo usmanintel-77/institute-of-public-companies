@@ -34,13 +34,12 @@
 
 
 .hero_image {
-  height: 100vh; /* Default height for larger screens */
+  height: 100vh; 
 }
 
 .hero_image {
   height: 100vh; /* Default height for larger screens */
 }
-
 
 
 @media (max-width: 1024px) {

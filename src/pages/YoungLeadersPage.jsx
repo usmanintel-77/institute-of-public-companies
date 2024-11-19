@@ -64,14 +64,11 @@ const YoungLeadersPage = () => {
     <div className="bg-main-light min-h-screen py-16 px-6 sm:px-12 lg:px-20">
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-screen flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')`,
-        }}
+        className="relative bg-cover bg-center h-screen flex items-center justify-center bg-[url('./assets/images/Young_Back.jpg')]"
       >
-        <div className="absolute inset-0 bg-gray-900/60"></div>
+        <div className="absolute inset-0 bg-gray-900/30"></div>
         <div className="relative z-10 text-center max-w-4xl px-6 sm:px-12 lg:px-16 text-main-light">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-6 text-main-green animate-slide-in">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-2 text-main-green animate-slide-in">
             Young Leaders Program
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl font-aeonik italic leading-relaxed animate-fade-in">

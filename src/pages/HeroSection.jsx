@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <section>
       {/* Hero Section with Background Image */}
-      <div className="relative bg-[url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')] bg-cover bg-center bg-no-repeat h-[70vh] sm:h-[90vh] animate-fade-in">
+      <div className="relative bg-[url('./assets/images/Hero_Page.jpg')] bg-cover bg-center bg-no-repeat h-[70vh] sm:h-[90vh] animate-fade-in">
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/70 to-gray-900/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/30 to-gray-900/40"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-8 lg:px-16 text-main-light">
@@ -31,7 +31,7 @@ const HeroSection = () => {
           {/* Call-to-Action Button */}
           <div className="mt-6 sm:mt-8">
             <Link
-              to="/herosection"
+              to="/"
               className="inline-block bg-main-dark text-main-light px-6 sm:px-8 py-3 sm:py-4 rounded-md text-sm sm:text-lg font-medium shadow hover:bg-accent-blue hover:shadow-lg transition"
             >
               Back To Home

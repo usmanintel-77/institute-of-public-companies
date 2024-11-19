@@ -73,9 +73,9 @@ const FirstProgram = () => {
         <div className="absolute inset-0 bg-gray-900/60"></div>
 
         {/* Content Container */}
-        <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 md:px-8 lg:px-16 text-main-light">
+        <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 md:px-8 lg:px-2 text-main-light">
           {/* Title */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-4 sm:mb-6 animate-slide-in text-main-green">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-barlow font-extrabold leading-tight mb-4 sm:mb-6 lg:mb-3 animate-slide-in text-main-green">
             Public Company Founders Program
           </h1>
 
@@ -84,8 +84,24 @@ const FirstProgram = () => {
             Transforming Ambition into Public Company Success
           </p>
 
-          {/* Description */}
-          <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-aeonik leading-relaxed max-w-xl mx-auto animate-fade-in-delay">
+
+
+          {/* Call-to-Action Button */}
+          <div className="mt-6 sm:mt-10 lg:mt-6">
+            <a
+              href="#faqs"
+              className="inline-block bg-main-green text-main-dark px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-sm sm:text-lg font-bold shadow-lg hover:bg-accent-blue hover:text-main-light"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+<div>
+            {/* Description */}
+            <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-aeonik leading-relaxed lg:mt-12 mb-8 animate-fade-in-delay">
             The Public Company Founders Program is tailored for those with the
             drive to establish and lead public limited companies. This
             comprehensive course provides hands-on training in public company
@@ -95,21 +111,9 @@ const FirstProgram = () => {
             The program empowers aspiring founders to build ethical, impactful
             public companies that thrive in today’s dynamic market.
           </p>
-
-          {/* Call-to-Action Button */}
-          <div className="mt-6 sm:mt-10">
-            <a
-              href="#faqs"
-              className="inline-block bg-main-green text-main-dark px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-sm sm:text-lg font-bold shadow-lg hover:bg-accent-blue hover:text-main-light transition-all duration-300 animate-bounce"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-
+</div>
       {/* FAQs Section */}
-      <div className="max-w-5xl mt-8 mx-auto">
+      <div className="max-w-5xl mt-16 mx-auto">
         <h2 className="text-3xl sm:text-4xl font-barlow font-extrabold text-main-dark mb-8 text-center animate-slide-in">
           FAQs for Public Company Founders Program
         </h2>
@@ -117,7 +121,7 @@ const FirstProgram = () => {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-white mb-4 shadow-md hover:shadow-lg rounded-xl transition-all duration-300 animate-fade-in"
+            className="bg-main-green mb-4 shadow-md hover:shadow-lg rounded-xl transition-all duration-300 animate-fade-in"
           >
             {/* Question */}
             <div
