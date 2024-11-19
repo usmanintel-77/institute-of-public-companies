@@ -1,0 +1,64 @@
+/* Add custom font faces */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/src/assets/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/src/assets/fonts/AeonikTRIAL-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('/src/assets/fonts/BarlowSemiCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.hero_image {
+  height: 100vh; /* Default height for larger screens */
+}
+
+.hero_image {
+  height: 100vh; /* Default height for larger screens */
+}
+
+
+
+@media (max-width: 1024px) {
+  /* For tablets */
+  .hero_image {
+    height: 65vh; /* Adjust height for tablet screens */
+  }
+}
+
+@media (max-width: 640px) {
+  /* For small screens (mobile) */
+  .hero_image {
+   
+    height: 50vh; /* Adjust height for mobile screens */
+  }
+  .paragraph_mobile{
+    font-size: 13px;
+  }
+}
+
+
